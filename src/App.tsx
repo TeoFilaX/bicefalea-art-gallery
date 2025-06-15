@@ -6,11 +6,11 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import ElMenson from "./pages/ElMenson";
-import SolYLuna from "./pages/SolYLuna";
+import LaBuenaIllada from "./pages/LaBuenaIllada";
+import ComposicionMitologica from "./pages/ComposicionMitologica";
+import AbstraccionExpresiva from "./pages/AbstraccionExpresiva";
+import FigurasEnMovimiento from "./pages/FigurasEnMovimiento";
 import Bicefalea from "./pages/Bicefalea";
-import QuintoElemento from "./pages/QuintoElemento";
-import Prueba5 from "./pages/Prueba5";
 
 const queryClient = new QueryClient();
 
@@ -22,11 +22,11 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/obra/el-menson" element={<ElMenson />} />
-          <Route path="/obra/sol-y-luna" element={<SolYLuna />} />
+          <Route path="/obra/la-buena-illada" element={<LaBuenaIllada />} />
+          <Route path="/obra/composicion-mitologica" element={<ComposicionMitologica />} />
+          <Route path="/obra/abstraccion-expresiva" element={<AbstraccionExpresiva />} />
+          <Route path="/obra/figuras-en-movimiento" element={<FigurasEnMovimiento />} />
           <Route path="/obra/bicefalea" element={<Bicefalea />} />
-          <Route path="/obra/quinto-elemento" element={<QuintoElemento />} />
-          <Route path="/obra/prueba-5" element={<Prueba5 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

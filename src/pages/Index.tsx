@@ -9,53 +9,53 @@ const Index = () => {
   const artworks = [
     {
       id: 1,
-      title: "El Mensón",
-      technique: "Óleo sobre lienzo",
-      dimensions: "44 x 80 cm",
+      title: "La Buena Illada",
+      technique: "Óleo y spray",
+      dimensions: "80 x 2 cm",
       year: "2023",
-      image: "/api/placeholder/400/500",
-      description: "Una exploración de la dualidad entre la figura humana y la naturaleza.",
-      slug: "el-menson"
+      image: "/lovable-uploads/c7989d7e-c89e-4827-9aa0-9ec76a3e0532.png",
+      description: "Una exploración narrativa que combina técnicas tradicionales con elementos contemporáneos, creando un diálogo entre épocas.",
+      slug: "la-buena-illada"
     },
     {
       id: 2,
-      title: "Sol y Luna",
+      title: "Composición Mitológica",
       technique: "Óleo sobre lienzo", 
-      dimensions: "55 x 90 cm",
+      dimensions: "Marco dorado",
       year: "2023",
-      image: "/api/placeholder/400/500",
-      description: "Dualidad entre el día y la noche en una composición de luz y sombra.",
-      slug: "sol-y-luna"
+      image: "/lovable-uploads/b7de8afb-5a2d-4fd6-9a38-117d101a4996.png",
+      description: "Una reinterpretación contemporánea de temas mitológicos clásicos con una paleta rica en colores tierra.",
+      slug: "composicion-mitologica"
     },
     {
       id: 3,
-      title: "Bicefálea",
-      technique: "Terracota blanca",
-      dimensions: "111 cm altura",
+      title: "Abstracción Expresiva",
+      technique: "Técnica mixta",
+      dimensions: "Dimensiones variables",
       year: "2023", 
-      image: "/api/placeholder/400/500",
-      description: "Escultura que explora la dualidad y simetría a través de una figura bicefálica.",
-      slug: "bicefalea"
+      image: "/lovable-uploads/06fc4e8f-ae58-4e2f-a459-021f1a9d5eeb.png",
+      description: "Una exploración abstracta que juega con texturas y formas orgánicas en tonos tierra y ocre.",
+      slug: "abstraccion-expresiva"
     },
     {
       id: 4,
-      title: "Quinto Elemento",
-      technique: "Técnica mixta",
-      dimensions: "Dimensiones variables",
+      title: "Figuras en Movimiento",
+      technique: "Escultura en bronce",
+      dimensions: "Tríptico escultórico",
       year: "2023",
-      image: "/api/placeholder/400/500",
-      description: "Exploración de la quinta esencia más allá de los elementos clásicos.",
-      slug: "quinto-elemento"
+      image: "/lovable-uploads/9e1df739-6f05-4905-8d6c-92a815cad73f.png",
+      description: "Tres figuras que capturan el movimiento humano en diferentes momentos de expresión corporal.",
+      slug: "figuras-en-movimiento"
     },
     {
       id: 5,
-      title: "Prueba 5",
-      technique: "Óleo sobre lienzo",
-      dimensions: "80 x 65 cm", 
+      title: "Bicefálea",
+      technique: "Terracota blanca",
+      dimensions: "111 cm de altura", 
       year: "2023",
-      image: "/api/placeholder/400/500",
-      description: "Composición que combina formas orgánicas y geométricas.",
-      slug: "prueba-5"
+      image: "/lovable-uploads/1056f2fa-118e-4b64-8fb2-2602ec86fc8b.png",
+      description: "Escultura que explora la dualidad y simetría a través de una figura bicefálica en terracota.",
+      slug: "bicefalea"
     }
   ];
 
