@@ -11,6 +11,7 @@ const FigurasEnMovimiento = () => {
       dimensions="Tríptico escultórico"
       year="2023"
       description="Un tríptico escultórico que captura el movimiento humano en tres momentos distintos de expresión corporal. Las figuras en bronce muestran diferentes posturas que sugieren danza, lucha o liberación. Cada pieza dialoga con las otras, creando una narrativa visual sobre la condición humana y el movimiento como esencia vital."
+      aspectRatio="[1080/520]"
     />
   );
 };

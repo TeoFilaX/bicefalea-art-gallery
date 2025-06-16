@@ -10,6 +10,7 @@ interface ArtworkDetailProps {
   dimensions: string;
   year: string;
   description: string;
+  aspectRatio?: string;
 }
 
 const ArtworkDetail: React.FC<ArtworkDetailProps> = ({
@@ -18,7 +19,8 @@ const ArtworkDetail: React.FC<ArtworkDetailProps> = ({
   technique,
   dimensions,
   year,
-  description
+  description,
+  aspectRatio = "[4/5]"
 }) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-stone-50 via-amber-50 to-orange-50">
@@ -39,7 +41,7 @@ const ArtworkDetail: React.FC<ArtworkDetailProps> = ({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
             {/* Image */}
             <div className="relative">
-              <div className="aspect-[4/5] max-w-md mx-auto lg:mx-0 overflow-hidden rounded-2xl shadow-2xl">
+              <div className={`aspect-${aspectRatio} max-w-md mx-auto lg:mx-0 overflow-hidden rounded-2xl shadow-2xl`}>
                 <img
                   src={image}
                   alt={title}
