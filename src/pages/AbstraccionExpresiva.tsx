@@ -11,6 +11,7 @@ const AbstraccionExpresiva = () => {
       dimensions="Dimensiones variables"
       year="2023"
       description="Una exploración abstracta que juega con texturas y formas orgánicas en una paleta dominada por tonos tierra, ocres y grises. La obra utiliza técnica mixta para crear profundidad y movimiento, sugiriendo formas humanas que emergen y se disuelven en la composición. La abstracción invita a múltiples interpretaciones."
+      aspectRatio="[1394/770]"
     />
   );
 };
