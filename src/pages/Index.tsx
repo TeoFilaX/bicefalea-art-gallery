@@ -18,42 +18,42 @@ const Index = () => {
     },
     {
       id: 2,
-      title: "Composición Mitológica",
+      title: "La Batalla",
       technique: "Óleo sobre lienzo", 
       dimensions: "Marco dorado",
       year: "2023",
       image: "/lovable-uploads/b7de8afb-5a2d-4fd6-9a38-117d101a4996.png",
-      description: "Una reinterpretación contemporánea de temas mitológicos clásicos con una paleta rica en colores tierra.",
+      description: "Las líneas no tienen orden, sino la caótica armonía de una mente en conflicto. El lienzo arde con figuras que se entrechocan como pensamientos encarnizados en un campo de batalla sin fronteras.",
       slug: "composicion-mitologica"
     },
     {
       id: 3,
-      title: "Abstracción Expresiva",
+      title: "Desde el Charco",
       technique: "Técnica mixta",
       dimensions: "Dimensiones variables",
       year: "2023", 
       image: "/lovable-uploads/06fc4e8f-ae58-4e2f-a459-021f1a9d5eeb.png",
-      description: "Una exploración abstracta que juega con texturas y formas orgánicas en tonos tierra y ocre.",
+      description: "Un enigma tejido en capas de materia y sombra. Tres figuras sumergidas en un abismo oscuro, con una luz verdosa que se filtra como promesa de umbral hacia otro lado.",
       slug: "abstraccion-expresiva"
     },
     {
       id: 4,
-      title: "Figuras en Movimiento",
+      title: "La Caída",
       technique: "Escultura en bronce",
       dimensions: "Tríptico escultórico",
       year: "2023",
       image: "/lovable-uploads/9e1df739-6f05-4905-8d6c-92a815cad73f.png",
-      description: "Tres figuras que capturan el movimiento humano en diferentes momentos de expresión corporal.",
+      description: "Escultura que captura el momento exacto del derrumbe de las creencias. Una figura masculina derribada con la cabeza clavada en el suelo como un axis mundi quebrado.",
       slug: "figuras-en-movimiento"
     },
     {
       id: 5,
-      title: "Bicefálea",
+      title: "La Musa",
       technique: "Terracota blanca",
       dimensions: "111 cm de altura", 
       year: "2023",
       image: "/lovable-uploads/1056f2fa-118e-4b64-8fb2-2602ec86fc8b.png",
-      description: "Escultura que explora la dualidad y simetría a través de una figura bicefálica en terracota.",
+      description: "Una mujer erguida con gracia de musa que emerge de un sueño. Entre pliegues suaves y piel de escayola se esconde una historia de cicatrices convertidas en belleza.",
       slug: "bicefalea"
     }
   ];
