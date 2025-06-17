@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Instagram, Download, Eye } from 'lucide-react';
@@ -55,6 +56,16 @@ const Index = () => {
       image: "/lovable-uploads/1056f2fa-118e-4b64-8fb2-2602ec86fc8b.png",
       description: "Una mujer erguida con gracia de musa que emerge de un sueño. Entre pliegues suaves y piel de escayola se esconde una historia de cicatrices convertidas en belleza.",
       slug: "bicefalea"
+    },
+    {
+      id: 6,
+      title: "Pastores",
+      technique: "Óleo y spray sobre lienzo",
+      dimensions: "Precio: 700€",
+      year: "2025",
+      image: "/lovable-uploads/f8b8c8d4-4f0e-4a2b-8c3d-1234567890ab.png",
+      description: "En lo alto de la montaña, un pastor y una pastora contemplan el futuro. Un tributo a la resiliencia, al amor sencillo y a la esperanza que florece cuando dos almas miran en la misma dirección.",
+      slug: "pastores"
     }
   ];
 

@@ -11,6 +11,7 @@ import ComposicionMitologica from "./pages/ComposicionMitologica";
 import AbstraccionExpresiva from "./pages/AbstraccionExpresiva";
 import FigurasEnMovimiento from "./pages/FigurasEnMovimiento";
 import Bicefalea from "./pages/Bicefalea";
+import Pastores from "./pages/Pastores";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/obra/abstraccion-expresiva" element={<AbstraccionExpresiva />} />
           <Route path="/obra/figuras-en-movimiento" element={<FigurasEnMovimiento />} />
           <Route path="/obra/bicefalea" element={<Bicefalea />} />
+          <Route path="/obra/pastores" element={<Pastores />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
