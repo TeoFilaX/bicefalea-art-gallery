@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Instagram, Download, Eye } from 'lucide-react';
@@ -9,12 +8,12 @@ const Index = () => {
   const artworks = [
     {
       id: 1,
-      title: "La Buena Illada",
-      technique: "Óleo y spray",
-      dimensions: "80 x 2 cm",
-      year: "2023",
+      title: "La Buena Iliada",
+      technique: "Óleo y spray sobre lienzo",
+      dimensions: "80 x 200 cm",
+      year: "2018",
       image: "/lovable-uploads/c7989d7e-c89e-4827-9aa0-9ec76a3e0532.png",
-      description: "Una exploración narrativa que combina técnicas tradicionales con elementos contemporáneos, creando un diálogo entre épocas.",
+      description: "Materializando el Cambio. Una explosión de tonos vibrantes que corporizan figuras y almas en un espacio compositivo dividido entre la transformación y los miedos arraigados.",
       slug: "la-buena-illada"
     },
     {
