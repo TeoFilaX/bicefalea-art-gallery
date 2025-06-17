@@ -12,7 +12,7 @@ const Index = () => {
       title: "La Buena Iliada",
       technique: "Óleo y spray sobre lienzo",
       dimensions: "80 x 200 cm",
-      year: "2018",
+      price: "3500€",
       image: "/lovable-uploads/c7989d7e-c89e-4827-9aa0-9ec76a3e0532.png",
       description: "Materializando el Cambio. Una explosión de tonos vibrantes que corporizan figuras y almas en un espacio compositivo dividido entre la transformación y los miedos arraigados.",
       slug: "la-buena-illada"
@@ -22,7 +22,7 @@ const Index = () => {
       title: "La Batalla",
       technique: "Óleo sobre lienzo", 
       dimensions: "Marco dorado",
-      year: "2023",
+      price: "2400€",
       image: "/lovable-uploads/b7de8afb-5a2d-4fd6-9a38-117d101a4996.png",
       description: "Las líneas no tienen orden, sino la caótica armonía de una mente en conflicto. El lienzo arde con figuras que se entrechocan como pensamientos encarnizados en un campo de batalla sin fronteras.",
       slug: "composicion-mitologica"
@@ -32,7 +32,7 @@ const Index = () => {
       title: "Desde el Charco",
       technique: "Técnica mixta",
       dimensions: "Dimensiones variables",
-      year: "2023", 
+      price: "2200€",
       image: "/lovable-uploads/06fc4e8f-ae58-4e2f-a459-021f1a9d5eeb.png",
       description: "Un enigma tejido en capas de materia y sombra. Tres figuras sumergidas en un abismo oscuro, con una luz verdosa que se filtra como promesa de umbral hacia otro lado.",
       slug: "abstraccion-expresiva"
@@ -42,7 +42,7 @@ const Index = () => {
       title: "La Caída",
       technique: "Escultura en bronce",
       dimensions: "Tríptico escultórico",
-      year: "2023",
+      price: "2700€",
       image: "/lovable-uploads/9e1df739-6f05-4905-8d6c-92a815cad73f.png",
       description: "Escultura que captura el momento exacto del derrumbe de las creencias. Una figura masculina derribada con la cabeza clavada en el suelo como un axis mundi quebrado.",
       slug: "figuras-en-movimiento"
@@ -51,8 +51,8 @@ const Index = () => {
       id: 5,
       title: "La Musa",
       technique: "Terracota blanca",
-      dimensions: "111 cm de altura", 
-      year: "2023",
+      dimensions: "111 cm de altura",
+      price: "1400€",
       image: "/lovable-uploads/1056f2fa-118e-4b64-8fb2-2602ec86fc8b.png",
       description: "Una mujer erguida con gracia de musa que emerge de un sueño. Entre pliegues suaves y piel de escayola se esconde una historia de cicatrices convertidas en belleza.",
       slug: "bicefalea"
@@ -62,8 +62,8 @@ const Index = () => {
       title: "Pastores",
       technique: "Óleo y spray sobre lienzo",
       dimensions: "Precio: 700€",
-      year: "2025",
-      image: "/lovable-uploads/f8b8c8d4-4f0e-4a2b-8c3d-1234567890ab.png",
+      price: "700€",
+      image: "/lovable-uploads/ca2d9ab4-600e-49bd-a894-a3b38ada8c42.png",
       description: "En lo alto de la montaña, un pastor y una pastora contemplan el futuro. Un tributo a la resiliencia, al amor sencillo y a la esperanza que florece cuando dos almas miran en la misma dirección.",
       slug: "pastores"
     }
@@ -99,10 +99,19 @@ const Index = () => {
               Mario Pérez de Zabalza
             </h1>
             <div className="w-24 h-px bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-8"></div>
-            <p className="text-lg md:text-xl text-slate-600 font-light leading-relaxed max-w-2xl mx-auto">
-              Exposición de pintura y escultura contemporánea que explora la dualidad, 
-              la naturaleza humana y los elementos primordiales
-            </p>
+            <div className="max-w-3xl mx-auto">
+              <h2 className="font-serif text-2xl md:text-3xl font-medium mb-4 text-slate-800">
+                Epílogo: Resiliencia
+              </h2>
+              <p className="text-lg md:text-xl text-slate-600 font-light leading-relaxed italic mb-4">
+                "Tránsitos de Luz"
+              </p>
+              <p className="text-lg md:text-xl text-slate-600 font-light leading-relaxed">
+                Esta exposición no niega el dolor; lo transita. Es una muestra que recuerda: 
+                incluso lo quebrado puede ser un lienzo, incluso el abismo, un taller. 
+                Y al final, siempre—como en el arte, como en la vida—el amor es la forma más audaz de resistencia.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -145,8 +154,11 @@ const Index = () => {
                   <h3 className="font-serif text-xl md:text-2xl font-medium mb-2 text-slate-900 group-hover:text-amber-700 transition-colors duration-300">
                     {artwork.title}
                   </h3>
-                  <p className="text-sm text-slate-500 mb-3">
-                    {artwork.technique} • {artwork.dimensions} • {artwork.year}
+                  <p className="text-sm text-slate-500 mb-2">
+                    {artwork.technique} • {artwork.dimensions}
+                  </p>
+                  <p className="text-lg font-semibold text-amber-600 mb-3">
+                    {artwork.price}
                   </p>
                   <p className="text-slate-600 text-sm leading-relaxed line-clamp-3">
                     {artwork.description}

@@ -6,7 +6,7 @@ const Pastores = () => {
   return (
     <ArtworkDetail
       title="Pastores"
-      image="/lovable-uploads/f8b8c8d4-4f0e-4a2b-8c3d-1234567890ab.png"
+      image="/lovable-uploads/ca2d9ab4-600e-49bd-a894-a3b38ada8c42.png"
       technique="Óleo y spray sobre lienzo"
       dimensions="Precio: 700€"
       year="2025"
