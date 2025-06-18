@@ -1,14 +1,14 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Ruler, Palette } from 'lucide-react';
+import { ArrowLeft, DollarSign, Ruler, Palette } from 'lucide-react';
 
 interface ArtworkDetailProps {
   title: string;
   image: string;
   technique: string;
   dimensions: string;
-  year: string;
+  price: string;
   description: string;
   aspectRatio?: string;
 }
@@ -18,7 +18,7 @@ const ArtworkDetail: React.FC<ArtworkDetailProps> = ({
   image, 
   technique,
   dimensions,
-  year,
+  price,
   description,
   aspectRatio = "[4/5]"
 }) => {
@@ -87,11 +87,11 @@ const ArtworkDetail: React.FC<ArtworkDetailProps> = ({
 
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-100 to-emerald-100 rounded-xl flex items-center justify-center">
-                    <Calendar className="w-5 h-5 text-green-700" />
+                    <DollarSign className="w-5 h-5 text-green-700" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-slate-900 mb-1">Año</h3>
-                    <p className="text-slate-600 text-sm">{year}</p>
+                    <h3 className="font-semibold text-slate-900 mb-1">Precio</h3>
+                    <p className="text-slate-600 text-sm">{price}</p>
                   </div>
                 </div>
               </div>
