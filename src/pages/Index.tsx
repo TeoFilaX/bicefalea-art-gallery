@@ -1,6 +1,7 @@
+
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Instagram, Download, Eye } from 'lucide-react';
+import { ArrowRight, Instagram, Eye, ExternalLink } from 'lucide-react';
 
 const Index = () => {
   const [visibleArtworks, setVisibleArtworks] = useState<number[]>([]);
@@ -176,11 +177,12 @@ const Index = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="/portfolio.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="group flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-full hover:bg-slate-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
-            <Download className="w-5 h-5" />
-            <span className="font-medium">Descargar Presentación</span>
+            <ExternalLink className="w-5 h-5" />
+            <span className="font-medium">Ver Presentación</span>
           </a>
           
           <a
