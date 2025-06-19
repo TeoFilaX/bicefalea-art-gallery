@@ -176,10 +176,15 @@ const Index = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="/portfolio.pdf"
+            href="https://drive.google.com/file/d/YOUR_FILE_ID/view"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-3 bg-slate-900 text-white px-8 py-4 rounded-full hover:bg-slate-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            onClick={(e) => {
+              // Fallback: si no tienes Google Drive, puedes usar un PDF local
+              e.preventDefault();
+              window.open('/portfolio.pdf', '_blank', 'noopener,noreferrer');
+            }}
           >
             <ExternalLink className="w-5 h-5" />
             <span className="font-medium">Ver Presentación</span>
