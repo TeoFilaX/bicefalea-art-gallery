@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Instagram, Download, Eye } from 'lucide-react';
@@ -154,9 +153,6 @@ const Index = () => {
                   <h3 className="font-serif text-xl md:text-2xl font-medium mb-2 text-slate-900 group-hover:text-amber-700 transition-colors duration-300">
                     {artwork.title}
                   </h3>
-                  <p className="text-sm text-slate-500 mb-2">
-                    {artwork.technique} • {artwork.dimensions}
-                  </p>
                   <p className="text-lg font-semibold text-amber-600 mb-3">
                     {artwork.price}
                   </p>
